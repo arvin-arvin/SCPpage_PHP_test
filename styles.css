@@ -1,0 +1,382 @@
+nav {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: white
+}
+
+#name, #password{
+  background: transparent;
+  outline: none;
+  color: white;
+  width: 100%;
+  transition: all 0.2s ease-out
+}
+
+#welcome {
+  font-size: 7rem;
+  font-weight: 900;
+  letter-spacing: -5px;
+  animation: fade 2.5s;
+}
+
+#numba {
+    color: white;
+}
+
+#lite{
+  font-size: 1.75rem;
+  vertical-align: top;
+  font-weight:bolder;
+  
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#bottom-cards {
+  background-color: rgb(22, 22, 22);
+  animation: fade-in 1s;
+  padding: 1rem;
+}
+
+.read-button{
+  text-align: end;
+  background: transparent;
+  padding: 1vw;
+  border: 5px solid white;
+  cursor: pointer;
+  font-size: 1.5vw;
+  transition: all 0.2s ease;
+  color: white;
+  margin-right: 10px;
+}
+
+.read-button:hover{
+  background: white;
+  color: black;
+}
+
+
+.read-button.light-mode:hover{
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.stop-button{
+  text-align: end;
+  background: transparent;
+  padding: 1vw;
+  border: 5px solid rgb(255, 15, 15);
+  cursor: pointer;
+  font-size: 1.5vw;
+  transition: all 0.2s ease;
+  color: white
+}
+
+.stop-button.light-mode{
+  text-align: end;
+  background: transparent;
+  padding: 1vw;
+  border: 5px solid rgb(255, 15, 15);
+  cursor: pointer;
+  font-size: 1.5vw;
+  transition: all 0.2s ease;
+  color: rgb(255, 19, 19)
+}
+
+.stop-button:hover{
+  background: rgb(255, 17, 17);
+  color: black;
+}
+
+.stop-button.light-mode:hover{
+  background: rgb(255, 17, 17);
+  color: rgb(255, 255, 255);
+}
+
+.light {
+  padding: 8px 16px; 
+  border: 2px solid #ccc; 
+  background-color: #f9f9f9; 
+  color: black;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.light:hover {
+  background: transparent;
+  color: white;
+}
+
+.light:active {
+  border: none;
+}
+
+
+#name:hover, #password:hover{
+  width: 105%
+}
+
+#name:focus, #password:focus{
+  border: 2px solid white;
+}
+
+#main {
+  align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+
+#submitBtn {
+  background-color: black;
+  color: white;
+  width: 20%;
+  transition: all 0.3s ease-out;
+  padding: 0.2rem;
+}
+
+#submitBtn:hover{
+  font-weight:900;
+  width: 25%
+}
+
+#submitBtn:active{
+  background: white;
+  color: black;
+}
+
+.h1-dark{
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgb(228, 226, 224);
+  color: black;
+}
+
+.h1-light {
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+h1{
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgb(228, 226, 224);
+  color: black;
+  font-family: "Fragment Mono"
+}
+
+
+
+h2{
+  letter-spacing: 3px;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+    font-family: "Fragment Mono", monospace;
+    color: white
+}
+
+
+b {
+  letter-spacing: 0.13rem;
+}
+
+#logo {
+  animation: fade-in 1s, glow 5s;
+}
+
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes glow {
+ 0% {filter: drop-shadow(0 0 0rem rgb(255, 255, 255))}
+ 50% {filter: drop-shadow(0 0 3rem rgb(255, 255, 255))}
+ 100% {filter: drop-shadow(0 0 0rem rgb(255, 255, 255))}
+}
+
+#welcome-title {
+  font-size: 10vh;
+  font-weight: 900;
+  letter-spacing: -5px;
+  animation: fade-in 1s, glow 5s
+}
+
+.navbar-brand:hover{
+  font-weight: 200;
+
+}
+
+.navbar-brand{
+  transition: font-weight 0.3s ease-out;
+  border: none;
+}
+
+.top_nav{
+  background-color: rgb(27, 25, 25);
+  color: white;
+}
+
+.top_nav.light-mode{
+  background-color: rgb(237, 237, 237);;
+}
+
+.nav_title {
+  color: white;
+}
+
+#side-text{
+  color: rgb(168, 168, 168);
+  font-size: 0.75rem;
+}
+
+#side-text-title{
+  font-size: 0.75rem;
+}
+
+#center-text {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+#center-text-bold {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+#card-main-title {
+  font-size: 2rem;
+}
+
+.navbar-nav{
+  text-align: right;
+}
+
+.colright.light-mode{
+  background-color: rgb(219, 212, 212);
+}
+
+.colright {
+  background-color: rgb(29, 29, 29);
+}
+
+#col{
+  border-radius: 5px;
+  border: 1px transparent white;
+}
+
+#object{
+  color: black
+}
+
+#Euclid {
+  color: red 
+}
+
+.image-size {
+  height: 75%;
+  width: 75%;
+}
+
+.here {
+  border: 3px solid #ff1e1e;
+}
+
+.here.light-mode {
+  border: 1px solid red
+}
+
+#title {
+  font-size: 5rem;
+}
+
+#objClassEuclid {
+  background: rgb(255, 255, 255);
+  border-left: solid 1rem red;
+  letter-spacing: 3px;
+}
+
+#txt_pad {
+  padding: 20px;
+}
+
+#objClassSafe {
+  background: rgb(255, 255, 255);
+  border-left: solid 1rem rgb(13, 151, 13);
+  letter-spacing: 3px;
+}
+
+#Safe {
+  color: rgb(13, 151, 13);
+}
+
+a.fancy-underline {
+  text-decoration: none;
+  display: inline-block;
+  color: #ff0909;
+  outline: 0;
+  font-size: 0.75rem
+}
+
+
+
+a.fancy-underline span {
+  position: relative;
+}
+
+a.fancy-underline span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff0000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+a.fancy-underline:hover span::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+a:focus-visible {
+  outline: 1px solid #ec0000;
+  outline-offset: 2px;
+}
+
+#object1 {
+ color: rgb(138, 138, 138)
+}
+
+#object2 {
+  color: rgb(66, 66, 66)
+}
+
+.container.light-mode{
+  background-color: rgb(237, 237, 237);
+  color: rgb(8, 8, 8);
+}
+
+.sidecon.light-mode{
+  background-color: rgb(210, 201, 201);
+}
+
